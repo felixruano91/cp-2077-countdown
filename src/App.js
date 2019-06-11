@@ -1,25 +1,26 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
+import styled from 'styled-components';
+import Nav from './components/Nav';
+import Header from './components/Header'
+import Counter from './components/Counter'
+import Footer from './components/Footer'
+
+const Container = styled.section`
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 50px;
+  border: solid 1px white;
+`
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <Container>
+      <Nav />
+      <Header />
+      <Counter />
+      <Footer />
+    </Container>
   );
 }
 
