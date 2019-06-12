@@ -9,6 +9,7 @@
     "react-dom": "^16.8.6",
     "react-moment-countdown": "^0.3.0",
     "react-moment-proptypes": "^1.6.0",
+    "react-router-dom": "^5.0.1",
     "react-scripts": "3.0.1",
     "styled-components": "^4.3.1",
     "styled-icons": "^8.1.0"

@@ -11,7 +11,7 @@ const FooterWrapper = styled.footer`
 export default function Footer() {
     return (
         <FooterWrapper>
-            © 2019 Felix Ruano | Made with <Heart style={{color: 'red'}} size={15}/> in Merida
+            © 2019 Felix Ruano | Made with <a href='https://github.com/felixruano91/cp-2077-countdown'><Heart style={{ color: 'red' }} size={16} /></a> in Merida
         </FooterWrapper>
     )
 }

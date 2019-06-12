@@ -10,7 +10,7 @@ const CounterWrapper = styled.h1`
     text-shadow: 0 0 20px #fae127;
     text-align: center;
     font-family: "Electrolize","sans-serif";
-    font-size: 3.5rem;
+    font-size: 3.2rem;
     margin: 19rem auto;
     margin-top: inherit;
 `
