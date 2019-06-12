@@ -2,9 +2,9 @@ import React from 'react';
 import './App.css';
 import styled from 'styled-components';
 import Nav from './components/Nav';
-import Header from './components/Header'
 import Counter from './components/Counter'
 import Footer from './components/Footer'
+import WrapperPlaylist from './components/WrapperPlaylist'
 
 const Container = styled.section`
   max-width: 1200px;
@@ -17,7 +17,6 @@ function App() {
   return (
     <Container>
       <Nav />
-      <Header />
       <Counter />
       <Footer />
     </Container>

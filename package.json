@@ -4,13 +4,14 @@
   "private": true,
   "dependencies": {
     "moment": "^2.24.0",
+    "prop-types": "^15.7.2",
     "react": "^16.8.6",
     "react-dom": "^16.8.6",
-    "react-icons": "^2.2.7",
     "react-moment-countdown": "^0.3.0",
     "react-moment-proptypes": "^1.6.0",
     "react-scripts": "3.0.1",
-    "styled-components": "^4.3.1"
+    "styled-components": "^4.3.1",
+    "styled-icons": "^8.1.0"
   },
   "scripts": {
     "start": "react-scripts start",
@@ -32,5 +33,6 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
-  }
+  },
+  "devDependencies": {}
 }
